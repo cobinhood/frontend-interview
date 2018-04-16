@@ -1,4 +1,4 @@
-Create a COBINHOOD market monitor app from [public APIs](https://cobinhood.github.io/api-public/).
+Create a COBINHOOD price monitor app from [public APIs](https://cobinhood.github.io/api-public/).
 
 ## Runtime Environment
 latest Chrome browser.
@@ -19,6 +19,7 @@ Reference: [Tickers API](https://cobinhood.github.io/api-public/#get-ticker)
 - Use [WebSocket](https://cobinhood.github.io/api-public/#ticker-2) instead of RESTful APIs for ticker price
 - Draw candle chart in trading pair page. Reference: [Candles API](https://cobinhood.github.io/api-public/#get-candles)
 - Responsive layout
+- *Anything* that makes it a better price monitor app
 
 ## Submission
 Please submit a ZIP/Tarball file containing `index.html` and other required JS, CSS... files.  
