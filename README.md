@@ -1,10 +1,10 @@
 Create a COBINHOOD market monitor app from [public APIs](https://cobinhood.github.io/api-public/).
 
-## Environment
-The app should be able to run on the latest Chrome browser.
+## Runtime Environment
+latest Chrome browser.
 
 ## Requirements
-The app should contain at least two pages:
+The app should contain the following two pages:
 1. **Pair List**  
 A list of all available trading pairs, grouped by their `base` currency  
 Reference: [Trading Pairs API](https://cobinhood.github.io/api-public/#get-all-trading-pairs)
@@ -20,5 +20,23 @@ Reference: [Tickers API](https://cobinhood.github.io/api-public/#get-ticker)
 - Draw candle chart in trading pair page. Reference: [Candles API](https://cobinhood.github.io/api-public/#get-candles)
 - Responsive layout
 
+## Submission
+Please submit a ZIP/Tarball file containing `index.html` and other required JS, CSS... files.  
+- If your HTML, JS or CSS files are bundled or transformed with tools like `webpack`, `babel`... etc, include your original sources in `/src` folder.
+- If your submission contains server side logic, include a README.md for setting up the server side environment
+
+The structure of the submitted file should be like:
+```bash
+/app/index.html #entrance of the web app
+/app/*.js #JavaScript file used by the app
+/app/*.css #Style sheet used by the app
+
+/src/**/*.* #source files
+
+README.md #guide on how to set up the server side environment 
+```
+
 ## Notes
-Life is short. There are other important things to do. Please **DO NOT** spend more than **1 day** on this assignment.
+1. Life is short. There are other important things to do. Please **DO NOT** spend more than **1 day** on this assignment.
+2. The code should be in **production** quality. Performance and code style should be considered.
+3. Feel free to use any language or framework.
