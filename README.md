@@ -6,14 +6,30 @@ latest Chrome browser.
 
 ## Requirements
 The app should contain the following two pages:
-1. **Pair List**  
+1. **Pair List** (Reference: [Trading Pairs API](https://cobinhood.github.io/api-public/#get-all-trading-pairs))  
 A list of all available trading pairs, grouped by their `base` currency  
-Reference: [Trading Pairs API](https://cobinhood.github.io/api-public/#get-all-trading-pairs)
-> If a trading pair has ID `COB-ETH`, then `COB` is its `base` currency and `ETH` is its `quote` currency.
-
-2. **Trading Pair Page**  
+The result should have the following structure:  
+```
+COB
+  COB-BTC
+  COB-ETH
+  COB-USDT
+  
+ETH
+  ETH-BTC
+  ETH-USDT
+  
+CMT
+  CMT-ETH
+  CMT-BTC
+  CMT-COB
+  CMT-USDT
+  
+...
+```
+ 
+2. **Trading Pair Page** (Reference: [Tickers API](https://cobinhood.github.io/api-public/#get-ticker))  
 Details of a trading pair, including `last price`, `24hr high`, `24hr low`, `24hr volume`, `highest bid` and `lowest ask`  
-Reference: [Tickers API](https://cobinhood.github.io/api-public/#get-ticker)
 
 ## Optional Features
 - Client side navigation
