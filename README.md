@@ -32,7 +32,7 @@ CMT
 Details of a trading pair, including `last price`, `24hr high`, `24hr low`, `24hr volume`, `highest bid` and `lowest ask`  
 
 You will need to use at least these two APIs:
-1. [Trading Pairs API](https://cobinhood.github.io/api-public/#get-all-trading-pairs)
+1. [Trading Pairs API](https://cobinhood.github.io/api-public/#get-trading-pairs)
 2. [Tickers API](https://cobinhood.github.io/api-public/#get-ticker)
 
 You should use one of the modern frontend frameworks. Such as, but not limited to,
@@ -46,7 +46,7 @@ You should use one of the modern frontend frameworks. Such as, but not limited t
 ## Optional Features
 - Client side navigation (e.g. react-router, history.pushState, ...)
 - Use [WebSocket](https://cobinhood.github.io/api-public/#ticker-2) instead of RESTful APIs for ticker price
-- Draw candle chart in trading pair page. Reference: [Candles API](https://cobinhood.github.io/api-public/#get-candles)
+- Draw candle chart in trading pair page. Reference: [Candles API](https://cobinhood.github.io/api-public/#get-candle)
 - Responsive layout
 - *Anything* that makes it a better price monitor app
 
