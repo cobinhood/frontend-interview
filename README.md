@@ -35,8 +35,16 @@ You will need to use at least these two APIs:
 1. [Trading Pairs API](https://cobinhood.github.io/api-public/#get-all-trading-pairs)
 2. [Tickers API](https://cobinhood.github.io/api-public/#get-ticker)
 
+You should use one of the modern frontend frameworks. Such as, but not limited to,
+1. React + Redux
+2. Vue + Vuex
+3. Angular
+4. Knockout
+5. Polymer
+6. Riot
+
 ## Optional Features
-- Client side navigation
+- Client side navigation (e.g. react-router, history.pushState, ...)
 - Use [WebSocket](https://cobinhood.github.io/api-public/#ticker-2) instead of RESTful APIs for ticker price
 - Draw candle chart in trading pair page. Reference: [Candles API](https://cobinhood.github.io/api-public/#get-candles)
 - Responsive layout
@@ -61,4 +69,3 @@ README.md #guide on how to set up the server side environment
 ## Notes
 1. Life is short. There are other important things to do. Please **DO NOT** spend more than **1 day** on this assignment.
 2. The code should be in **production** quality. Performance and code style should be considered.
-3. Feel free to use any language or framework.
